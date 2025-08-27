@@ -1,0 +1,2605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ServeRest - API Tests" tests="28" time="0.000">
+  <testsuite name="1. Setup &amp; Auth / Login - Sucesso" id="c656aaba-93b7-4836-8159-89839be87c48" timestamp="2025-08-27T00:46:45.276Z" tests="9" failures="9" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="1SetupAmpAuthLoginSucesso">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Sucesso.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="1SetupAmpAuthLoginSucesso">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Sucesso.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="1SetupAmpAuthLoginSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Sucesso.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="1SetupAmpAuthLoginSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Sucesso.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 200" time="0.000" classname="1SetupAmpAuthLoginSucesso">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Sucesso.]]>
+        <![CDATA[Test description: Status code é 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response tem propriedades obrigatórias" time="0.000" classname="1SetupAmpAuthLoginSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Sucesso.]]>
+        <![CDATA[Test description: Response tem propriedades obrigatórias.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de sucesso" time="0.000" classname="1SetupAmpAuthLoginSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Sucesso.]]>
+        <![CDATA[Test description: Message de sucesso.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Token é válido" time="0.000" classname="1SetupAmpAuthLoginSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Sucesso.]]>
+        <![CDATA[Test description: Token é válido.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:4:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é menor que 2000ms" time="0.000" classname="1SetupAmpAuthLoginSucesso">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Sucesso.]]>
+        <![CDATA[Test description: Response time é menor que 2000ms.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:5:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="1. Setup &amp; Auth / Login - Credenciais Inválidas" id="6421a789-eea3-43fe-8db5-4d72d92cb874" timestamp="2025-08-27T00:46:45.276Z" tests="7" failures="7" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="1SetupAmpAuthLoginCredenciaisInvalidas">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Credenciais Inválidas.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="1SetupAmpAuthLoginCredenciaisInvalidas">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Credenciais Inválidas.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="1SetupAmpAuthLoginCredenciaisInvalidas">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Credenciais Inválidas.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="1SetupAmpAuthLoginCredenciaisInvalidas">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Credenciais Inválidas.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 401" time="0.000" classname="1SetupAmpAuthLoginCredenciaisInvalidas">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Credenciais Inválidas.]]>
+        <![CDATA[Test description: Status code é 401.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de erro correto" time="0.000" classname="1SetupAmpAuthLoginCredenciaisInvalidas">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Credenciais Inválidas.]]>
+        <![CDATA[Test description: Message de erro correto.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não retorna token" time="0.000" classname="1SetupAmpAuthLoginCredenciaisInvalidas">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 1. Setup & Auth / Login - Credenciais Inválidas.]]>
+        <![CDATA[Test description: Não retorna token.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:2).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="2. Usuários / Listar Usuários" id="52d7ab82-a01d-43c7-97fa-1c126ab3470d" timestamp="2025-08-27T00:46:45.276Z" tests="9" failures="9" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="2UsuariosListarUsuarios">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Listar Usuários.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="2UsuariosListarUsuarios">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Listar Usuários.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="2UsuariosListarUsuarios">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Listar Usuários.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="2UsuariosListarUsuarios">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Listar Usuários.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 200" time="0.000" classname="2UsuariosListarUsuarios">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Listar Usuários.]]>
+        <![CDATA[Test description: Status code é 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response tem estrutura correta" time="0.000" classname="2UsuariosListarUsuarios">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Listar Usuários.]]>
+        <![CDATA[Test description: Response tem estrutura correta.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Quantidade corresponde ao array" time="0.000" classname="2UsuariosListarUsuarios">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Listar Usuários.]]>
+        <![CDATA[Test description: Quantidade corresponde ao array.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Usuários têm propriedades obrigatórias" time="0.000" classname="2UsuariosListarUsuarios">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Listar Usuários.]]>
+        <![CDATA[Test description: Usuários têm propriedades obrigatórias.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:4:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Administrador é true ou false" time="0.000" classname="2UsuariosListarUsuarios">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Listar Usuários.]]>
+        <![CDATA[Test description: Administrador é true ou false.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:5:3).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="2. Usuários / Cadastrar Usuário - Sucesso" id="0d81fe52-1020-4aec-88f8-e8be92429657" timestamp="2025-08-27T00:46:45.276Z" tests="9" failures="9" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="2UsuariosCadastrarUsuarioSucesso">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Sucesso.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="2UsuariosCadastrarUsuarioSucesso">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Sucesso.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="2UsuariosCadastrarUsuarioSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Sucesso.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="2UsuariosCadastrarUsuarioSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Sucesso.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 201" time="0.000" classname="2UsuariosCadastrarUsuarioSucesso">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Sucesso.]]>
+        <![CDATA[Test description: Status code é 201.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response tem propriedades obrigatórias" time="0.000" classname="2UsuariosCadastrarUsuarioSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Sucesso.]]>
+        <![CDATA[Test description: Response tem propriedades obrigatórias.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de sucesso" time="0.000" classname="2UsuariosCadastrarUsuarioSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Sucesso.]]>
+        <![CDATA[Test description: Message de sucesso.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="ID do usuário é válido" time="0.000" classname="2UsuariosCadastrarUsuarioSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Sucesso.]]>
+        <![CDATA[Test description: ID do usuário é válido.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:4:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type é application/json" time="0.000" classname="2UsuariosCadastrarUsuarioSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Sucesso.]]>
+        <![CDATA[Test description: Content-Type é application/json.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:5:4).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="2. Usuários / Cadastrar Usuário - Email Duplicado" id="27dcb024-ad03-450b-986a-6903c0720521" timestamp="2025-08-27T00:46:45.276Z" tests="7" failures="7" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="2UsuariosCadastrarUsuarioEmailDuplicado">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Email Duplicado.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="2UsuariosCadastrarUsuarioEmailDuplicado">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Email Duplicado.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="2UsuariosCadastrarUsuarioEmailDuplicado">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Email Duplicado.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="2UsuariosCadastrarUsuarioEmailDuplicado">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Email Duplicado.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 400" time="0.000" classname="2UsuariosCadastrarUsuarioEmailDuplicado">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Email Duplicado.]]>
+        <![CDATA[Test description: Status code é 400.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de erro correto" time="0.000" classname="2UsuariosCadastrarUsuarioEmailDuplicado">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Email Duplicado.]]>
+        <![CDATA[Test description: Message de erro correto.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não retorna ID" time="0.000" classname="2UsuariosCadastrarUsuarioEmailDuplicado">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Cadastrar Usuário - Email Duplicado.]]>
+        <![CDATA[Test description: Não retorna ID.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:5).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="2. Usuários / Buscar Usuário por ID - Sucesso" id="3420d8bf-1754-438a-844e-6d246e5c2ebf" timestamp="2025-08-27T00:46:45.276Z" tests="8" failures="8" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="2UsuariosBuscarUsuarioPorIdSucesso">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Buscar Usuário por ID - Sucesso.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="2UsuariosBuscarUsuarioPorIdSucesso">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Buscar Usuário por ID - Sucesso.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="2UsuariosBuscarUsuarioPorIdSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Buscar Usuário por ID - Sucesso.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="2UsuariosBuscarUsuarioPorIdSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Buscar Usuário por ID - Sucesso.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 200" time="0.000" classname="2UsuariosBuscarUsuarioPorIdSucesso">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Buscar Usuário por ID - Sucesso.]]>
+        <![CDATA[Test description: Status code é 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response tem propriedades obrigatórias" time="0.000" classname="2UsuariosBuscarUsuarioPorIdSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Buscar Usuário por ID - Sucesso.]]>
+        <![CDATA[Test description: Response tem propriedades obrigatórias.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="ID do usuário corresponde ao solicitado" time="0.000" classname="2UsuariosBuscarUsuarioPorIdSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Buscar Usuário por ID - Sucesso.]]>
+        <![CDATA[Test description: ID do usuário corresponde ao solicitado.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Email é válido" time="0.000" classname="2UsuariosBuscarUsuarioPorIdSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Buscar Usuário por ID - Sucesso.]]>
+        <![CDATA[Test description: Email é válido.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:4:6).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="2. Usuários / Buscar Usuário por ID - Não Encontrado" id="cb0a60ed-dec1-4f2b-bfe0-9e9209b4af87" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="2UsuariosBuscarUsuarioPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Buscar Usuário por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:7).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="2UsuariosBuscarUsuarioPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Buscar Usuário por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:7).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="2UsuariosBuscarUsuarioPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Buscar Usuário por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:7).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="2UsuariosBuscarUsuarioPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Buscar Usuário por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:7).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 400" time="0.000" classname="2UsuariosBuscarUsuarioPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Buscar Usuário por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Status code é 400.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:7).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de erro correto" time="0.000" classname="2UsuariosBuscarUsuarioPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Buscar Usuário por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Message de erro correto.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:7).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="2. Usuários / Editar Usuário - Sucesso" id="b9ffae6c-9ce0-465f-b7ee-5b09dbc24597" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="2UsuariosEditarUsuarioSucesso">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Editar Usuário - Sucesso.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="2UsuariosEditarUsuarioSucesso">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Editar Usuário - Sucesso.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="2UsuariosEditarUsuarioSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Editar Usuário - Sucesso.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="2UsuariosEditarUsuarioSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Editar Usuário - Sucesso.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 200" time="0.000" classname="2UsuariosEditarUsuarioSucesso">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Editar Usuário - Sucesso.]]>
+        <![CDATA[Test description: Status code é 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de sucesso" time="0.000" classname="2UsuariosEditarUsuarioSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 2. Usuários / Editar Usuário - Sucesso.]]>
+        <![CDATA[Test description: Message de sucesso.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:8).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="3. Produtos / Listar Produtos" id="1f5aa14a-838c-445a-b29c-edb81ee21ad8" timestamp="2025-08-27T00:46:45.276Z" tests="10" failures="10" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="3ProdutosListarProdutos">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Listar Produtos.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="3ProdutosListarProdutos">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Listar Produtos.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="3ProdutosListarProdutos">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Listar Produtos.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="3ProdutosListarProdutos">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Listar Produtos.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 200" time="0.000" classname="3ProdutosListarProdutos">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Listar Produtos.]]>
+        <![CDATA[Test description: Status code é 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response tem estrutura correta" time="0.000" classname="3ProdutosListarProdutos">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Listar Produtos.]]>
+        <![CDATA[Test description: Response tem estrutura correta.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Quantidade corresponde ao array" time="0.000" classname="3ProdutosListarProdutos">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Listar Produtos.]]>
+        <![CDATA[Test description: Quantidade corresponde ao array.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Produtos têm propriedades obrigatórias" time="0.000" classname="3ProdutosListarProdutos">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Listar Produtos.]]>
+        <![CDATA[Test description: Produtos têm propriedades obrigatórias.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:4:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Preços são números positivos" time="0.000" classname="3ProdutosListarProdutos">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Listar Produtos.]]>
+        <![CDATA[Test description: Preços são números positivos.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:5:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Quantidades são números não negativos" time="0.000" classname="3ProdutosListarProdutos">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Listar Produtos.]]>
+        <![CDATA[Test description: Quantidades são números não negativos.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:6:9).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="3. Produtos / Cadastrar Produto - Sucesso" id="1c6095b3-ab25-4488-a635-bb303fa65153" timestamp="2025-08-27T00:46:45.276Z" tests="9" failures="9" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Token não encontrado" time="0.000" classname="3ProdutosCadastrarProdutoSucesso">
+      <failure type="AssertionFailure" message="Execute o login primeiro para obter o token">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sucesso.]]>
+        <![CDATA[Test description: Token não encontrado.]]>
+        <![CDATA[Error message: Execute o login primeiro para obter o token.]]>
+        <![CDATA[Stacktrace: AssertionError: Execute o login primeiro para obter o token
+   at Object.eval sandbox-script.js:1:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response é JSON válido" time="0.000" classname="3ProdutosCadastrarProdutoSucesso">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sucesso.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="3ProdutosCadastrarProdutoSucesso">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sucesso.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="3ProdutosCadastrarProdutoSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sucesso.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="3ProdutosCadastrarProdutoSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sucesso.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 201" time="0.000" classname="3ProdutosCadastrarProdutoSucesso">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sucesso.]]>
+        <![CDATA[Test description: Status code é 201.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response tem propriedades obrigatórias" time="0.000" classname="3ProdutosCadastrarProdutoSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sucesso.]]>
+        <![CDATA[Test description: Response tem propriedades obrigatórias.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de sucesso" time="0.000" classname="3ProdutosCadastrarProdutoSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sucesso.]]>
+        <![CDATA[Test description: Message de sucesso.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="ID do produto é válido" time="0.000" classname="3ProdutosCadastrarProdutoSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sucesso.]]>
+        <![CDATA[Test description: ID do produto é válido.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:4:10).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="3. Produtos / Cadastrar Produto - Sem Token" id="7299a279-59d9-4605-bc37-3dcb0006fe07" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="3ProdutosCadastrarProdutoSemToken">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sem Token.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:11).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="3ProdutosCadastrarProdutoSemToken">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sem Token.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:11).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="3ProdutosCadastrarProdutoSemToken">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sem Token.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:11).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="3ProdutosCadastrarProdutoSemToken">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sem Token.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:11).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 401" time="0.000" classname="3ProdutosCadastrarProdutoSemToken">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sem Token.]]>
+        <![CDATA[Test description: Status code é 401.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:11).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de erro de token" time="0.000" classname="3ProdutosCadastrarProdutoSemToken">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Sem Token.]]>
+        <![CDATA[Test description: Message de erro de token.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:11).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="3. Produtos / Cadastrar Produto - Nome Duplicado" id="c846f035-5523-48eb-adbe-8e616d058605" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="3ProdutosCadastrarProdutoNomeDuplicado">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Nome Duplicado.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:12).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="3ProdutosCadastrarProdutoNomeDuplicado">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Nome Duplicado.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:12).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="3ProdutosCadastrarProdutoNomeDuplicado">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Nome Duplicado.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:12).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="3ProdutosCadastrarProdutoNomeDuplicado">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Nome Duplicado.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:12).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 400" time="0.000" classname="3ProdutosCadastrarProdutoNomeDuplicado">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Nome Duplicado.]]>
+        <![CDATA[Test description: Status code é 400.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:12).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de erro de nome duplicado" time="0.000" classname="3ProdutosCadastrarProdutoNomeDuplicado">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Cadastrar Produto - Nome Duplicado.]]>
+        <![CDATA[Test description: Message de erro de nome duplicado.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:12).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="3. Produtos / Buscar Produto por ID - Sucesso" id="4485a041-1636-4e34-9740-a4083967334f" timestamp="2025-08-27T00:46:45.276Z" tests="7" failures="7" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="3ProdutosBuscarProdutoPorIdSucesso">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Buscar Produto por ID - Sucesso.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:13).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="3ProdutosBuscarProdutoPorIdSucesso">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Buscar Produto por ID - Sucesso.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:13).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="3ProdutosBuscarProdutoPorIdSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Buscar Produto por ID - Sucesso.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:13).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="3ProdutosBuscarProdutoPorIdSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Buscar Produto por ID - Sucesso.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:13).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 200" time="0.000" classname="3ProdutosBuscarProdutoPorIdSucesso">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Buscar Produto por ID - Sucesso.]]>
+        <![CDATA[Test description: Status code é 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:13).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response tem propriedades obrigatórias" time="0.000" classname="3ProdutosBuscarProdutoPorIdSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Buscar Produto por ID - Sucesso.]]>
+        <![CDATA[Test description: Response tem propriedades obrigatórias.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:13).]]>
+      </failure>
+    </testcase>
+    <testcase name="ID do produto corresponde ao solicitado" time="0.000" classname="3ProdutosBuscarProdutoPorIdSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Buscar Produto por ID - Sucesso.]]>
+        <![CDATA[Test description: ID do produto corresponde ao solicitado.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:13).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="3. Produtos / Buscar Produto por ID - Não Encontrado" id="9d5692ad-0ec2-4cd1-8a74-c3150ff29152" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="3ProdutosBuscarProdutoPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Buscar Produto por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:14).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="3ProdutosBuscarProdutoPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Buscar Produto por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:14).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="3ProdutosBuscarProdutoPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Buscar Produto por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:14).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="3ProdutosBuscarProdutoPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Buscar Produto por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:14).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 400" time="0.000" classname="3ProdutosBuscarProdutoPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Buscar Produto por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Status code é 400.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:14).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de erro correto" time="0.000" classname="3ProdutosBuscarProdutoPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Buscar Produto por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Message de erro correto.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:14).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="3. Produtos / Editar Produto - Sucesso" id="bad85080-92e0-4023-9dc4-4279be5dd6e0" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="3ProdutosEditarProdutoSucesso">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Editar Produto - Sucesso.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:15).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="3ProdutosEditarProdutoSucesso">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Editar Produto - Sucesso.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:15).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="3ProdutosEditarProdutoSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Editar Produto - Sucesso.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:15).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="3ProdutosEditarProdutoSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Editar Produto - Sucesso.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:15).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 200" time="0.000" classname="3ProdutosEditarProdutoSucesso">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Editar Produto - Sucesso.]]>
+        <![CDATA[Test description: Status code é 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:15).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de sucesso" time="0.000" classname="3ProdutosEditarProdutoSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Editar Produto - Sucesso.]]>
+        <![CDATA[Test description: Message de sucesso.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:15).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Listar Carrinhos" id="de11b61c-1e01-421d-80f5-4eecfbe2d518" timestamp="2025-08-27T00:46:45.276Z" tests="9" failures="9" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="4CarrinhosListarCarrinhos">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Listar Carrinhos.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="4CarrinhosListarCarrinhos">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Listar Carrinhos.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="4CarrinhosListarCarrinhos">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Listar Carrinhos.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="4CarrinhosListarCarrinhos">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Listar Carrinhos.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 200" time="0.000" classname="4CarrinhosListarCarrinhos">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Listar Carrinhos.]]>
+        <![CDATA[Test description: Status code é 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response tem estrutura correta" time="0.000" classname="4CarrinhosListarCarrinhos">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Listar Carrinhos.]]>
+        <![CDATA[Test description: Response tem estrutura correta.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="Quantidade corresponde ao array" time="0.000" classname="4CarrinhosListarCarrinhos">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Listar Carrinhos.]]>
+        <![CDATA[Test description: Quantidade corresponde ao array.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="Carrinhos têm propriedades obrigatórias" time="0.000" classname="4CarrinhosListarCarrinhos">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Listar Carrinhos.]]>
+        <![CDATA[Test description: Carrinhos têm propriedades obrigatórias.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:4:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="Produtos do carrinho têm propriedades corretas" time="0.000" classname="4CarrinhosListarCarrinhos">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Listar Carrinhos.]]>
+        <![CDATA[Test description: Produtos do carrinho têm propriedades corretas.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:5:16).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Cadastrar Carrinho - Sucesso" id="ee847225-8de8-4643-9e1d-952ed04fbf2a" timestamp="2025-08-27T00:46:45.276Z" tests="10" failures="10" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Token não encontrado" time="0.000" classname="4CarrinhosCadastrarCarrinhoSucesso">
+      <failure type="AssertionFailure" message="Execute o login primeiro para obter o token">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sucesso.]]>
+        <![CDATA[Test description: Token não encontrado.]]>
+        <![CDATA[Error message: Execute o login primeiro para obter o token.]]>
+        <![CDATA[Stacktrace: AssertionError: Execute o login primeiro para obter o token
+   at Object.eval sandbox-script.js:1:17).]]>
+      </failure>
+    </testcase>
+    <testcase name="Product ID não encontrado" time="0.000" classname="4CarrinhosCadastrarCarrinhoSucesso">
+      <failure type="AssertionFailure" message="Execute a listagem de produtos ou cadastre um produto primeiro">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sucesso.]]>
+        <![CDATA[Test description: Product ID não encontrado.]]>
+        <![CDATA[Error message: Execute a listagem de produtos ou cadastre um produto primeiro.]]>
+        <![CDATA[Stacktrace: AssertionError: Execute a listagem de produtos ou cadastre um produto primeiro
+   at Object.eval sandbox-script.js:2:17).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response é JSON válido" time="0.000" classname="4CarrinhosCadastrarCarrinhoSucesso">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sucesso.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:17).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="4CarrinhosCadastrarCarrinhoSucesso">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sucesso.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:17).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="4CarrinhosCadastrarCarrinhoSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sucesso.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:17).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="4CarrinhosCadastrarCarrinhoSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sucesso.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:17).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 201" time="0.000" classname="4CarrinhosCadastrarCarrinhoSucesso">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sucesso.]]>
+        <![CDATA[Test description: Status code é 201.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:17).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response tem propriedades obrigatórias" time="0.000" classname="4CarrinhosCadastrarCarrinhoSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sucesso.]]>
+        <![CDATA[Test description: Response tem propriedades obrigatórias.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:17).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de sucesso" time="0.000" classname="4CarrinhosCadastrarCarrinhoSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sucesso.]]>
+        <![CDATA[Test description: Message de sucesso.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:17).]]>
+      </failure>
+    </testcase>
+    <testcase name="ID do carrinho é válido" time="0.000" classname="4CarrinhosCadastrarCarrinhoSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sucesso.]]>
+        <![CDATA[Test description: ID do carrinho é válido.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:4:17).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Cadastrar Carrinho - Sem Token" id="b5a00df8-3c68-43b9-a637-a7f7f5579e84" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="4CarrinhosCadastrarCarrinhoSemToken">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sem Token.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:18).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="4CarrinhosCadastrarCarrinhoSemToken">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sem Token.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:18).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="4CarrinhosCadastrarCarrinhoSemToken">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sem Token.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:18).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="4CarrinhosCadastrarCarrinhoSemToken">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sem Token.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:18).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 401" time="0.000" classname="4CarrinhosCadastrarCarrinhoSemToken">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sem Token.]]>
+        <![CDATA[Test description: Status code é 401.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:18).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de erro de token" time="0.000" classname="4CarrinhosCadastrarCarrinhoSemToken">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Sem Token.]]>
+        <![CDATA[Test description: Message de erro de token.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:18).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Cadastrar Carrinho - Produto Inexistente" id="df55a999-d386-49ed-b30d-c386ab68c1f0" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="4CarrinhosCadastrarCarrinhoProdutoInexistente">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Produto Inexistente.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:19).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="4CarrinhosCadastrarCarrinhoProdutoInexistente">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Produto Inexistente.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:19).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="4CarrinhosCadastrarCarrinhoProdutoInexistente">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Produto Inexistente.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:19).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="4CarrinhosCadastrarCarrinhoProdutoInexistente">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Produto Inexistente.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:19).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 400" time="0.000" classname="4CarrinhosCadastrarCarrinhoProdutoInexistente">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Produto Inexistente.]]>
+        <![CDATA[Test description: Status code é 400.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:19).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de erro de produto não encontrado" time="0.000" classname="4CarrinhosCadastrarCarrinhoProdutoInexistente">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Produto Inexistente.]]>
+        <![CDATA[Test description: Message de erro de produto não encontrado.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:19).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Buscar Carrinho por ID - Sucesso" id="0dce66e1-a479-45a8-b57e-d7b4a8d839fc" timestamp="2025-08-27T00:46:45.276Z" tests="7" failures="7" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="4CarrinhosBuscarCarrinhoPorIdSucesso">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Buscar Carrinho por ID - Sucesso.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:20).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="4CarrinhosBuscarCarrinhoPorIdSucesso">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Buscar Carrinho por ID - Sucesso.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:20).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="4CarrinhosBuscarCarrinhoPorIdSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Buscar Carrinho por ID - Sucesso.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:20).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="4CarrinhosBuscarCarrinhoPorIdSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Buscar Carrinho por ID - Sucesso.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:20).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 200" time="0.000" classname="4CarrinhosBuscarCarrinhoPorIdSucesso">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Buscar Carrinho por ID - Sucesso.]]>
+        <![CDATA[Test description: Status code é 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:20).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response tem propriedades obrigatórias" time="0.000" classname="4CarrinhosBuscarCarrinhoPorIdSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Buscar Carrinho por ID - Sucesso.]]>
+        <![CDATA[Test description: Response tem propriedades obrigatórias.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:20).]]>
+      </failure>
+    </testcase>
+    <testcase name="ID do carrinho corresponde ao solicitado" time="0.000" classname="4CarrinhosBuscarCarrinhoPorIdSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Buscar Carrinho por ID - Sucesso.]]>
+        <![CDATA[Test description: ID do carrinho corresponde ao solicitado.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:20).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Buscar Carrinho por ID - Não Encontrado" id="d7321f0a-5292-4c5b-954a-c26a5282f15f" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="4CarrinhosBuscarCarrinhoPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Buscar Carrinho por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:21).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="4CarrinhosBuscarCarrinhoPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Buscar Carrinho por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:21).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="4CarrinhosBuscarCarrinhoPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Buscar Carrinho por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:21).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="4CarrinhosBuscarCarrinhoPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Buscar Carrinho por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:21).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 400" time="0.000" classname="4CarrinhosBuscarCarrinhoPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Buscar Carrinho por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Status code é 400.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:21).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de erro correto" time="0.000" classname="4CarrinhosBuscarCarrinhoPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Buscar Carrinho por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Message de erro correto.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:21).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Concluir Compra - Sucesso" id="39995f61-108c-470e-8b69-926b97624fb0" timestamp="2025-08-27T00:46:45.276Z" tests="7" failures="7" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+    <testcase name="Token não encontrado" time="0.000" classname="4CarrinhosConcluirCompraSucesso">
+      <failure type="AssertionFailure" message="Execute o login primeiro para obter o token">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Concluir Compra - Sucesso.]]>
+        <![CDATA[Test description: Token não encontrado.]]>
+        <![CDATA[Error message: Execute o login primeiro para obter o token.]]>
+        <![CDATA[Stacktrace: AssertionError: Execute o login primeiro para obter o token
+   at Object.eval sandbox-script.js:1:22).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response é JSON válido" time="0.000" classname="4CarrinhosConcluirCompraSucesso">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Concluir Compra - Sucesso.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:22).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="4CarrinhosConcluirCompraSucesso">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Concluir Compra - Sucesso.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:22).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="4CarrinhosConcluirCompraSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Concluir Compra - Sucesso.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:22).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="4CarrinhosConcluirCompraSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Concluir Compra - Sucesso.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:22).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 200" time="0.000" classname="4CarrinhosConcluirCompraSucesso">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Concluir Compra - Sucesso.]]>
+        <![CDATA[Test description: Status code é 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:22).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de sucesso ou aviso" time="0.000" classname="4CarrinhosConcluirCompraSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Concluir Compra - Sucesso.]]>
+        <![CDATA[Test description: Message de sucesso ou aviso.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:22).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Cancelar Compra - Token Inválido" id="f999b059-297e-4dfe-88c8-6f9d0dd8faff" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="4CarrinhosCancelarCompraTokenInvalido">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cancelar Compra - Token Inválido.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:23).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="4CarrinhosCancelarCompraTokenInvalido">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cancelar Compra - Token Inválido.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:23).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="4CarrinhosCancelarCompraTokenInvalido">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cancelar Compra - Token Inválido.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:23).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="4CarrinhosCancelarCompraTokenInvalido">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cancelar Compra - Token Inválido.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:23).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 401" time="0.000" classname="4CarrinhosCancelarCompraTokenInvalido">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cancelar Compra - Token Inválido.]]>
+        <![CDATA[Test description: Status code é 401.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:23).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de erro de token" time="0.000" classname="4CarrinhosCancelarCompraTokenInvalido">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cancelar Compra - Token Inválido.]]>
+        <![CDATA[Test description: Message de erro de token.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:23).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="5. Cenários de Limpeza / Excluir Produto - Sucesso" id="2d4f9449-448c-4e92-aec1-0edbb84df815" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="5CenariosDeLimpezaExcluirProdutoSucesso">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 5. Cenários de Limpeza / Excluir Produto - Sucesso.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="5CenariosDeLimpezaExcluirProdutoSucesso">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 5. Cenários de Limpeza / Excluir Produto - Sucesso.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="5CenariosDeLimpezaExcluirProdutoSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 5. Cenários de Limpeza / Excluir Produto - Sucesso.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="5CenariosDeLimpezaExcluirProdutoSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 5. Cenários de Limpeza / Excluir Produto - Sucesso.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 200" time="0.000" classname="5CenariosDeLimpezaExcluirProdutoSucesso">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 5. Cenários de Limpeza / Excluir Produto - Sucesso.]]>
+        <![CDATA[Test description: Status code é 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de sucesso ou aviso" time="0.000" classname="5CenariosDeLimpezaExcluirProdutoSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 5. Cenários de Limpeza / Excluir Produto - Sucesso.]]>
+        <![CDATA[Test description: Message de sucesso ou aviso.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:24).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="5. Cenários de Limpeza / Excluir Usuário - Sucesso" id="34e8d2c5-a994-4671-b10c-326e72821d4e" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="5CenariosDeLimpezaExcluirUsuarioSucesso">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 5. Cenários de Limpeza / Excluir Usuário - Sucesso.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:25).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="5CenariosDeLimpezaExcluirUsuarioSucesso">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 5. Cenários de Limpeza / Excluir Usuário - Sucesso.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:25).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="5CenariosDeLimpezaExcluirUsuarioSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 5. Cenários de Limpeza / Excluir Usuário - Sucesso.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:25).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="5CenariosDeLimpezaExcluirUsuarioSucesso">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 5. Cenários de Limpeza / Excluir Usuário - Sucesso.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:25).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 200" time="0.000" classname="5CenariosDeLimpezaExcluirUsuarioSucesso">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 5. Cenários de Limpeza / Excluir Usuário - Sucesso.]]>
+        <![CDATA[Test description: Status code é 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:25).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de sucesso ou aviso" time="0.000" classname="5CenariosDeLimpezaExcluirUsuarioSucesso">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 5. Cenários de Limpeza / Excluir Usuário - Sucesso.]]>
+        <![CDATA[Test description: Message de sucesso ou aviso.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:25).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="6. Testes de Limite e Edge Cases / Cadastrar Usuário - Campos Vazios" id="2fc597ac-bd5e-465b-b8fb-8e33ddf9a48b" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarUsuarioCamposVazios">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Usuário - Campos Vazios.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarUsuarioCamposVazios">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Usuário - Campos Vazios.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarUsuarioCamposVazios">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Usuário - Campos Vazios.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarUsuarioCamposVazios">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Usuário - Campos Vazios.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 400" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarUsuarioCamposVazios">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Usuário - Campos Vazios.]]>
+        <![CDATA[Test description: Status code é 400.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response contém erros de validação" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarUsuarioCamposVazios">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Usuário - Campos Vazios.]]>
+        <![CDATA[Test description: Response contém erros de validação.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:26).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="6. Testes de Limite e Edge Cases / Cadastrar Produto - Preço Negativo" id="4bff6c60-c608-4574-8c02-7dd972c0d24e" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarProdutoPrecoNegativo">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Produto - Preço Negativo.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:27).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarProdutoPrecoNegativo">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Produto - Preço Negativo.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:27).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarProdutoPrecoNegativo">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Produto - Preço Negativo.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:27).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarProdutoPrecoNegativo">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Produto - Preço Negativo.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:27).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 400" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarProdutoPrecoNegativo">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Produto - Preço Negativo.]]>
+        <![CDATA[Test description: Status code é 400.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:27).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response contém erro de validação de preço" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarProdutoPrecoNegativo">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Produto - Preço Negativo.]]>
+        <![CDATA[Test description: Response contém erro de validação de preço.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:27).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="6. Testes de Limite e Edge Cases / Cadastrar Carrinho - Quantidade Excessiva" id="dbce954b-d91e-4c24-9604-63c5bb23ee5c" timestamp="2025-08-27T00:46:45.276Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+
+---
+]]></system-err>
+    <testcase name="Response é JSON válido" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarCarrinhoQuantidadeExcessiva">
+      <failure type="AssertionFailure" message="expected response body to be a valid json but got error Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Carrinho - Quantidade Excessiva.]]>
+        <![CDATA[Test description: Response é JSON válido.]]>
+        <![CDATA[Error message: expected response body to be a valid json but got error Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to be a valid json but got error Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time é aceitável" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarCarrinhoQuantidadeExcessiva">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Carrinho - Quantidade Excessiva.]]>
+        <![CDATA[Test description: Response time é aceitável.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:2:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type correto" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarCarrinhoQuantidadeExcessiva">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Carrinho - Quantidade Excessiva.]]>
+        <![CDATA[Test description: Content-Type correto.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:3:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarCarrinhoQuantidadeExcessiva">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Carrinho - Quantidade Excessiva.]]>
+        <![CDATA[Test description: Não há vazamento de dados sensíveis.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:4:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code é 400" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarCarrinhoQuantidadeExcessiva">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Carrinho - Quantidade Excessiva.]]>
+        <![CDATA[Test description: Status code é 400.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de erro de quantidade insuficiente" time="0.000" classname="6TestesDeLimiteEEdgeCasesCadastrarCarrinhoQuantidadeExcessiva">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Carrinho - Quantidade Excessiva.]]>
+        <![CDATA[Test description: Message de erro de quantidade insuficiente.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:28).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>

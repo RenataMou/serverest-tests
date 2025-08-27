@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ServeRest - API Tests" tests="28" time="8.012">
+  <testsuite name="1. Setup &amp; Auth / Login - Sucesso" id="8e427f36-988f-4d23-b5b8-9ea55bcbb43c" timestamp="2025-08-27T01:51:24.972Z" tests="9" failures="0" errors="0" time="0.597">
+    <testcase name="Response é JSON válido" time="0.597" classname="1SetupAmpAuthLoginSucesso"/>
+    <testcase name="Response time é aceitável" time="0.597" classname="1SetupAmpAuthLoginSucesso"/>
+    <testcase name="Content-Type correto" time="0.597" classname="1SetupAmpAuthLoginSucesso"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.597" classname="1SetupAmpAuthLoginSucesso"/>
+    <testcase name="Status code é 200" time="0.597" classname="1SetupAmpAuthLoginSucesso"/>
+    <testcase name="Response tem propriedades obrigatórias" time="0.597" classname="1SetupAmpAuthLoginSucesso"/>
+    <testcase name="Message de sucesso" time="0.597" classname="1SetupAmpAuthLoginSucesso"/>
+    <testcase name="Token é válido" time="0.597" classname="1SetupAmpAuthLoginSucesso"/>
+    <testcase name="Response time é menor que 2000ms" time="0.597" classname="1SetupAmpAuthLoginSucesso"/>
+  </testsuite>
+  <testsuite name="1. Setup &amp; Auth / Login - Credenciais Inválidas" id="3604c008-23e6-4017-a3f0-c7277a9ac721" timestamp="2025-08-27T01:51:24.972Z" tests="7" failures="0" errors="0" time="0.267">
+    <testcase name="Response é JSON válido" time="0.267" classname="1SetupAmpAuthLoginCredenciaisInvalidas"/>
+    <testcase name="Response time é aceitável" time="0.267" classname="1SetupAmpAuthLoginCredenciaisInvalidas"/>
+    <testcase name="Content-Type correto" time="0.267" classname="1SetupAmpAuthLoginCredenciaisInvalidas"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.267" classname="1SetupAmpAuthLoginCredenciaisInvalidas"/>
+    <testcase name="Status code é 401" time="0.267" classname="1SetupAmpAuthLoginCredenciaisInvalidas"/>
+    <testcase name="Message de erro correto" time="0.267" classname="1SetupAmpAuthLoginCredenciaisInvalidas"/>
+    <testcase name="Não retorna token" time="0.267" classname="1SetupAmpAuthLoginCredenciaisInvalidas"/>
+  </testsuite>
+  <testsuite name="2. Usuários / Listar Usuários" id="03e14e35-e90e-4a03-9f67-e12507abdb86" timestamp="2025-08-27T01:51:24.972Z" tests="9" failures="0" errors="0" time="0.659">
+    <testcase name="Response é JSON válido" time="0.659" classname="2UsuariosListarUsuarios"/>
+    <testcase name="Response time é aceitável" time="0.659" classname="2UsuariosListarUsuarios"/>
+    <testcase name="Content-Type correto" time="0.659" classname="2UsuariosListarUsuarios"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.659" classname="2UsuariosListarUsuarios"/>
+    <testcase name="Status code é 200" time="0.659" classname="2UsuariosListarUsuarios"/>
+    <testcase name="Response tem estrutura correta" time="0.659" classname="2UsuariosListarUsuarios"/>
+    <testcase name="Quantidade corresponde ao array" time="0.659" classname="2UsuariosListarUsuarios"/>
+    <testcase name="Usuários têm propriedades obrigatórias" time="0.659" classname="2UsuariosListarUsuarios"/>
+    <testcase name="Administrador é true ou false" time="0.659" classname="2UsuariosListarUsuarios"/>
+  </testsuite>
+  <testsuite name="2. Usuários / Cadastrar Usuário - Sucesso" id="ecc4f9cc-63b0-4a09-8c58-c90777f5391e" timestamp="2025-08-27T01:51:24.972Z" tests="9" failures="0" errors="0" time="0.296">
+    <testcase name="Response é JSON válido" time="0.296" classname="2UsuariosCadastrarUsuarioSucesso"/>
+    <testcase name="Response time é aceitável" time="0.296" classname="2UsuariosCadastrarUsuarioSucesso"/>
+    <testcase name="Content-Type correto" time="0.296" classname="2UsuariosCadastrarUsuarioSucesso"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.296" classname="2UsuariosCadastrarUsuarioSucesso"/>
+    <testcase name="Status code é 201" time="0.296" classname="2UsuariosCadastrarUsuarioSucesso"/>
+    <testcase name="Response tem propriedades obrigatórias" time="0.296" classname="2UsuariosCadastrarUsuarioSucesso"/>
+    <testcase name="Message de sucesso" time="0.296" classname="2UsuariosCadastrarUsuarioSucesso"/>
+    <testcase name="ID do usuário é válido" time="0.296" classname="2UsuariosCadastrarUsuarioSucesso"/>
+    <testcase name="Content-Type é application/json" time="0.296" classname="2UsuariosCadastrarUsuarioSucesso"/>
+  </testsuite>
+  <testsuite name="2. Usuários / Cadastrar Usuário - Email Duplicado" id="a2cb64bf-bdf1-4e6a-84c4-20c233533b0c" timestamp="2025-08-27T01:51:24.972Z" tests="7" failures="0" errors="0" time="0.194">
+    <testcase name="Response é JSON válido" time="0.194" classname="2UsuariosCadastrarUsuarioEmailDuplicado"/>
+    <testcase name="Response time é aceitável" time="0.194" classname="2UsuariosCadastrarUsuarioEmailDuplicado"/>
+    <testcase name="Content-Type correto" time="0.194" classname="2UsuariosCadastrarUsuarioEmailDuplicado"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.194" classname="2UsuariosCadastrarUsuarioEmailDuplicado"/>
+    <testcase name="Status code é 400" time="0.194" classname="2UsuariosCadastrarUsuarioEmailDuplicado"/>
+    <testcase name="Message de erro correto" time="0.194" classname="2UsuariosCadastrarUsuarioEmailDuplicado"/>
+    <testcase name="Não retorna ID" time="0.194" classname="2UsuariosCadastrarUsuarioEmailDuplicado"/>
+  </testsuite>
+  <testsuite name="2. Usuários / Buscar Usuário por ID - Sucesso" id="1c1751d6-a36e-4eb2-9fb4-16295f95d24c" timestamp="2025-08-27T01:51:24.972Z" tests="8" failures="0" errors="0" time="0.192">
+    <testcase name="Response é JSON válido" time="0.192" classname="2UsuariosBuscarUsuarioPorIdSucesso"/>
+    <testcase name="Response time é aceitável" time="0.192" classname="2UsuariosBuscarUsuarioPorIdSucesso"/>
+    <testcase name="Content-Type correto" time="0.192" classname="2UsuariosBuscarUsuarioPorIdSucesso"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.192" classname="2UsuariosBuscarUsuarioPorIdSucesso"/>
+    <testcase name="Status code é 200" time="0.192" classname="2UsuariosBuscarUsuarioPorIdSucesso"/>
+    <testcase name="Response tem propriedades obrigatórias" time="0.192" classname="2UsuariosBuscarUsuarioPorIdSucesso"/>
+    <testcase name="ID do usuário corresponde ao solicitado" time="0.192" classname="2UsuariosBuscarUsuarioPorIdSucesso"/>
+    <testcase name="Email é válido" time="0.192" classname="2UsuariosBuscarUsuarioPorIdSucesso"/>
+  </testsuite>
+  <testsuite name="2. Usuários / Buscar Usuário por ID - Não Encontrado" id="3700defb-ac51-4a63-b6f6-de56e866d1c0" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="0" errors="0" time="0.256">
+    <testcase name="Response é JSON válido" time="0.256" classname="2UsuariosBuscarUsuarioPorIdNaoEncontrado"/>
+    <testcase name="Response time é aceitável" time="0.256" classname="2UsuariosBuscarUsuarioPorIdNaoEncontrado"/>
+    <testcase name="Content-Type correto" time="0.256" classname="2UsuariosBuscarUsuarioPorIdNaoEncontrado"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.256" classname="2UsuariosBuscarUsuarioPorIdNaoEncontrado"/>
+    <testcase name="Status code é 400" time="0.256" classname="2UsuariosBuscarUsuarioPorIdNaoEncontrado"/>
+    <testcase name="Message de erro correto" time="0.256" classname="2UsuariosBuscarUsuarioPorIdNaoEncontrado"/>
+  </testsuite>
+  <testsuite name="2. Usuários / Editar Usuário - Sucesso" id="60eecd82-85af-4dce-8796-2183727effc5" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="0" errors="0" time="0.275">
+    <testcase name="Response é JSON válido" time="0.275" classname="2UsuariosEditarUsuarioSucesso"/>
+    <testcase name="Response time é aceitável" time="0.275" classname="2UsuariosEditarUsuarioSucesso"/>
+    <testcase name="Content-Type correto" time="0.275" classname="2UsuariosEditarUsuarioSucesso"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.275" classname="2UsuariosEditarUsuarioSucesso"/>
+    <testcase name="Status code é 200" time="0.275" classname="2UsuariosEditarUsuarioSucesso"/>
+    <testcase name="Message de sucesso" time="0.275" classname="2UsuariosEditarUsuarioSucesso"/>
+  </testsuite>
+  <testsuite name="3. Produtos / Listar Produtos" id="37dde83b-5244-4cd9-9abd-72121b2bb3b4" timestamp="2025-08-27T01:51:24.972Z" tests="10" failures="0" errors="0" time="0.288">
+    <testcase name="Response é JSON válido" time="0.288" classname="3ProdutosListarProdutos"/>
+    <testcase name="Response time é aceitável" time="0.288" classname="3ProdutosListarProdutos"/>
+    <testcase name="Content-Type correto" time="0.288" classname="3ProdutosListarProdutos"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.288" classname="3ProdutosListarProdutos"/>
+    <testcase name="Status code é 200" time="0.288" classname="3ProdutosListarProdutos"/>
+    <testcase name="Response tem estrutura correta" time="0.288" classname="3ProdutosListarProdutos"/>
+    <testcase name="Quantidade corresponde ao array" time="0.288" classname="3ProdutosListarProdutos"/>
+    <testcase name="Produtos têm propriedades obrigatórias" time="0.288" classname="3ProdutosListarProdutos"/>
+    <testcase name="Preços são números positivos" time="0.288" classname="3ProdutosListarProdutos"/>
+    <testcase name="Quantidades são números não negativos" time="0.288" classname="3ProdutosListarProdutos"/>
+  </testsuite>
+  <testsuite name="3. Produtos / Cadastrar Produto - Sucesso" id="bf2bfc44-ae6b-435e-a2bc-1ca39eb3b764" timestamp="2025-08-27T01:51:24.972Z" tests="8" failures="0" errors="0" time="0.207">
+    <testcase name="Response é JSON válido" time="0.207" classname="3ProdutosCadastrarProdutoSucesso"/>
+    <testcase name="Response time é aceitável" time="0.207" classname="3ProdutosCadastrarProdutoSucesso"/>
+    <testcase name="Content-Type correto" time="0.207" classname="3ProdutosCadastrarProdutoSucesso"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.207" classname="3ProdutosCadastrarProdutoSucesso"/>
+    <testcase name="Status code é 201" time="0.207" classname="3ProdutosCadastrarProdutoSucesso"/>
+    <testcase name="Response tem propriedades obrigatórias" time="0.207" classname="3ProdutosCadastrarProdutoSucesso"/>
+    <testcase name="Message de sucesso" time="0.207" classname="3ProdutosCadastrarProdutoSucesso"/>
+    <testcase name="ID do produto é válido" time="0.207" classname="3ProdutosCadastrarProdutoSucesso"/>
+  </testsuite>
+  <testsuite name="3. Produtos / Cadastrar Produto - Sem Token" id="ea11c71e-48f4-49dc-b662-11e033a5b8ec" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="0" errors="0" time="0.187">
+    <testcase name="Response é JSON válido" time="0.187" classname="3ProdutosCadastrarProdutoSemToken"/>
+    <testcase name="Response time é aceitável" time="0.187" classname="3ProdutosCadastrarProdutoSemToken"/>
+    <testcase name="Content-Type correto" time="0.187" classname="3ProdutosCadastrarProdutoSemToken"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.187" classname="3ProdutosCadastrarProdutoSemToken"/>
+    <testcase name="Status code é 401" time="0.187" classname="3ProdutosCadastrarProdutoSemToken"/>
+    <testcase name="Message de erro de token" time="0.187" classname="3ProdutosCadastrarProdutoSemToken"/>
+  </testsuite>
+  <testsuite name="3. Produtos / Cadastrar Produto - Nome Duplicado" id="fba42f1f-980f-4128-a015-4cc1c92b3d36" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="0" errors="0" time="0.273">
+    <testcase name="Response é JSON válido" time="0.273" classname="3ProdutosCadastrarProdutoNomeDuplicado"/>
+    <testcase name="Response time é aceitável" time="0.273" classname="3ProdutosCadastrarProdutoNomeDuplicado"/>
+    <testcase name="Content-Type correto" time="0.273" classname="3ProdutosCadastrarProdutoNomeDuplicado"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.273" classname="3ProdutosCadastrarProdutoNomeDuplicado"/>
+    <testcase name="Status code é 400" time="0.273" classname="3ProdutosCadastrarProdutoNomeDuplicado"/>
+    <testcase name="Message de erro de nome duplicado" time="0.273" classname="3ProdutosCadastrarProdutoNomeDuplicado"/>
+  </testsuite>
+  <testsuite name="3. Produtos / Buscar Produto por ID - Sucesso" id="02f1c5a5-a545-417c-8e68-51ed814ebc7b" timestamp="2025-08-27T01:51:24.972Z" tests="7" failures="0" errors="0" time="0.286">
+    <testcase name="Response é JSON válido" time="0.286" classname="3ProdutosBuscarProdutoPorIdSucesso"/>
+    <testcase name="Response time é aceitável" time="0.286" classname="3ProdutosBuscarProdutoPorIdSucesso"/>
+    <testcase name="Content-Type correto" time="0.286" classname="3ProdutosBuscarProdutoPorIdSucesso"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.286" classname="3ProdutosBuscarProdutoPorIdSucesso"/>
+    <testcase name="Status code é 200" time="0.286" classname="3ProdutosBuscarProdutoPorIdSucesso"/>
+    <testcase name="Response tem propriedades obrigatórias" time="0.286" classname="3ProdutosBuscarProdutoPorIdSucesso"/>
+    <testcase name="ID do produto corresponde ao solicitado" time="0.286" classname="3ProdutosBuscarProdutoPorIdSucesso"/>
+  </testsuite>
+  <testsuite name="3. Produtos / Buscar Produto por ID - Não Encontrado" id="9a1a227e-b97b-4663-95bf-472612e7271f" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="1" errors="0" time="0.275">
+    <testcase name="Response é JSON válido" time="0.275" classname="3ProdutosBuscarProdutoPorIdNaoEncontrado"/>
+    <testcase name="Response time é aceitável" time="0.275" classname="3ProdutosBuscarProdutoPorIdNaoEncontrado"/>
+    <testcase name="Content-Type correto" time="0.275" classname="3ProdutosBuscarProdutoPorIdNaoEncontrado"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.275" classname="3ProdutosBuscarProdutoPorIdNaoEncontrado"/>
+    <testcase name="Status code é 400" time="0.275" classname="3ProdutosBuscarProdutoPorIdNaoEncontrado"/>
+    <testcase name="Message de erro correto" time="0.275" classname="3ProdutosBuscarProdutoPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal 'Produto não encontrado'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 3. Produtos / Buscar Produto por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Message de erro correto.]]>
+        <![CDATA[Error message: expected undefined to deeply equal 'Produto não encontrado'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal 'Produto não encontrado'
+   at Object.eval sandbox-script.js:2:14).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="3. Produtos / Editar Produto - Sucesso" id="dd763341-fc56-40c7-bf35-4f5889f73175" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="0" errors="0" time="0.265">
+    <testcase name="Response é JSON válido" time="0.265" classname="3ProdutosEditarProdutoSucesso"/>
+    <testcase name="Response time é aceitável" time="0.265" classname="3ProdutosEditarProdutoSucesso"/>
+    <testcase name="Content-Type correto" time="0.265" classname="3ProdutosEditarProdutoSucesso"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.265" classname="3ProdutosEditarProdutoSucesso"/>
+    <testcase name="Status code é 200" time="0.265" classname="3ProdutosEditarProdutoSucesso"/>
+    <testcase name="Message de sucesso" time="0.265" classname="3ProdutosEditarProdutoSucesso"/>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Listar Carrinhos" id="ef0755d7-d3b1-448e-9065-f5994171527c" timestamp="2025-08-27T01:51:24.972Z" tests="9" failures="0" errors="0" time="0.289">
+    <testcase name="Response é JSON válido" time="0.289" classname="4CarrinhosListarCarrinhos"/>
+    <testcase name="Response time é aceitável" time="0.289" classname="4CarrinhosListarCarrinhos"/>
+    <testcase name="Content-Type correto" time="0.289" classname="4CarrinhosListarCarrinhos"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.289" classname="4CarrinhosListarCarrinhos"/>
+    <testcase name="Status code é 200" time="0.289" classname="4CarrinhosListarCarrinhos"/>
+    <testcase name="Response tem estrutura correta" time="0.289" classname="4CarrinhosListarCarrinhos"/>
+    <testcase name="Quantidade corresponde ao array" time="0.289" classname="4CarrinhosListarCarrinhos"/>
+    <testcase name="Carrinhos têm propriedades obrigatórias" time="0.289" classname="4CarrinhosListarCarrinhos"/>
+    <testcase name="Produtos do carrinho têm propriedades corretas" time="0.289" classname="4CarrinhosListarCarrinhos"/>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Cadastrar Carrinho - Sucesso" id="1fd64b71-cd98-4a02-9aca-b039c9c4f266" timestamp="2025-08-27T01:51:24.972Z" tests="8" failures="0" errors="0" time="0.275">
+    <testcase name="Response é JSON válido" time="0.275" classname="4CarrinhosCadastrarCarrinhoSucesso"/>
+    <testcase name="Response time é aceitável" time="0.275" classname="4CarrinhosCadastrarCarrinhoSucesso"/>
+    <testcase name="Content-Type correto" time="0.275" classname="4CarrinhosCadastrarCarrinhoSucesso"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.275" classname="4CarrinhosCadastrarCarrinhoSucesso"/>
+    <testcase name="Status code é 201" time="0.275" classname="4CarrinhosCadastrarCarrinhoSucesso"/>
+    <testcase name="Response tem propriedades obrigatórias" time="0.275" classname="4CarrinhosCadastrarCarrinhoSucesso"/>
+    <testcase name="Message de sucesso" time="0.275" classname="4CarrinhosCadastrarCarrinhoSucesso"/>
+    <testcase name="ID do carrinho é válido" time="0.275" classname="4CarrinhosCadastrarCarrinhoSucesso"/>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Cadastrar Carrinho - Sem Token" id="a6e02d32-e988-47a2-9320-98545720c9a3" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="0" errors="0" time="0.277">
+    <testcase name="Response é JSON válido" time="0.277" classname="4CarrinhosCadastrarCarrinhoSemToken"/>
+    <testcase name="Response time é aceitável" time="0.277" classname="4CarrinhosCadastrarCarrinhoSemToken"/>
+    <testcase name="Content-Type correto" time="0.277" classname="4CarrinhosCadastrarCarrinhoSemToken"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.277" classname="4CarrinhosCadastrarCarrinhoSemToken"/>
+    <testcase name="Status code é 401" time="0.277" classname="4CarrinhosCadastrarCarrinhoSemToken"/>
+    <testcase name="Message de erro de token" time="0.277" classname="4CarrinhosCadastrarCarrinhoSemToken"/>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Cadastrar Carrinho - Produto Inexistente" id="c66c87e2-bee7-4d49-8193-522b000a3d11" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="1" errors="0" time="0.291">
+    <testcase name="Response é JSON válido" time="0.291" classname="4CarrinhosCadastrarCarrinhoProdutoInexistente"/>
+    <testcase name="Response time é aceitável" time="0.291" classname="4CarrinhosCadastrarCarrinhoProdutoInexistente"/>
+    <testcase name="Content-Type correto" time="0.291" classname="4CarrinhosCadastrarCarrinhoProdutoInexistente"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.291" classname="4CarrinhosCadastrarCarrinhoProdutoInexistente"/>
+    <testcase name="Status code é 400" time="0.291" classname="4CarrinhosCadastrarCarrinhoProdutoInexistente"/>
+    <testcase name="Message de erro de produto não encontrado" time="0.291" classname="4CarrinhosCadastrarCarrinhoProdutoInexistente">
+      <failure type="AssertionFailure" message="expected 'Não é permitido ter mais de 1 carrinho' to include 'Produto não encontrado'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Cadastrar Carrinho - Produto Inexistente.]]>
+        <![CDATA[Test description: Message de erro de produto não encontrado.]]>
+        <![CDATA[Error message: expected 'Não é permitido ter mais de 1 carrinho' to include 'Produto não encontrado'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'Não é permitido ter mais de 1 carrinho' to include 'Produto não encontrado'
+   at Object.eval sandbox-script.js:2:19).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Buscar Carrinho por ID - Sucesso" id="e45a6dbd-6b8a-4cae-b37f-7b0307b4b69a" timestamp="2025-08-27T01:51:24.972Z" tests="7" failures="0" errors="0" time="0.287">
+    <testcase name="Response é JSON válido" time="0.287" classname="4CarrinhosBuscarCarrinhoPorIdSucesso"/>
+    <testcase name="Response time é aceitável" time="0.287" classname="4CarrinhosBuscarCarrinhoPorIdSucesso"/>
+    <testcase name="Content-Type correto" time="0.287" classname="4CarrinhosBuscarCarrinhoPorIdSucesso"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.287" classname="4CarrinhosBuscarCarrinhoPorIdSucesso"/>
+    <testcase name="Status code é 200" time="0.287" classname="4CarrinhosBuscarCarrinhoPorIdSucesso"/>
+    <testcase name="Response tem propriedades obrigatórias" time="0.287" classname="4CarrinhosBuscarCarrinhoPorIdSucesso"/>
+    <testcase name="ID do carrinho corresponde ao solicitado" time="0.287" classname="4CarrinhosBuscarCarrinhoPorIdSucesso"/>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Buscar Carrinho por ID - Não Encontrado" id="702c3e4e-decf-485d-a94b-20dcc73e74de" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="1" errors="0" time="0.285">
+    <testcase name="Response é JSON válido" time="0.285" classname="4CarrinhosBuscarCarrinhoPorIdNaoEncontrado"/>
+    <testcase name="Response time é aceitável" time="0.285" classname="4CarrinhosBuscarCarrinhoPorIdNaoEncontrado"/>
+    <testcase name="Content-Type correto" time="0.285" classname="4CarrinhosBuscarCarrinhoPorIdNaoEncontrado"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.285" classname="4CarrinhosBuscarCarrinhoPorIdNaoEncontrado"/>
+    <testcase name="Status code é 400" time="0.285" classname="4CarrinhosBuscarCarrinhoPorIdNaoEncontrado"/>
+    <testcase name="Message de erro correto" time="0.285" classname="4CarrinhosBuscarCarrinhoPorIdNaoEncontrado">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal 'Carrinho não encontrado'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 4. Carrinhos / Buscar Carrinho por ID - Não Encontrado.]]>
+        <![CDATA[Test description: Message de erro correto.]]>
+        <![CDATA[Error message: expected undefined to deeply equal 'Carrinho não encontrado'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal 'Carrinho não encontrado'
+   at Object.eval sandbox-script.js:2:21).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Concluir Compra - Sucesso" id="d5416e4e-2141-46f9-8e87-36eef0ced4fd" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="0" errors="0" time="0.191">
+    <testcase name="Response é JSON válido" time="0.191" classname="4CarrinhosConcluirCompraSucesso"/>
+    <testcase name="Response time é aceitável" time="0.191" classname="4CarrinhosConcluirCompraSucesso"/>
+    <testcase name="Content-Type correto" time="0.191" classname="4CarrinhosConcluirCompraSucesso"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.191" classname="4CarrinhosConcluirCompraSucesso"/>
+    <testcase name="Status code é 200" time="0.191" classname="4CarrinhosConcluirCompraSucesso"/>
+    <testcase name="Message de sucesso ou aviso" time="0.191" classname="4CarrinhosConcluirCompraSucesso"/>
+  </testsuite>
+  <testsuite name="4. Carrinhos / Cancelar Compra - Token Inválido" id="8a85c12e-f523-4daf-8c20-60bad8d39e9a" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="0" errors="0" time="0.182">
+    <testcase name="Response é JSON válido" time="0.182" classname="4CarrinhosCancelarCompraTokenInvalido"/>
+    <testcase name="Response time é aceitável" time="0.182" classname="4CarrinhosCancelarCompraTokenInvalido"/>
+    <testcase name="Content-Type correto" time="0.182" classname="4CarrinhosCancelarCompraTokenInvalido"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.182" classname="4CarrinhosCancelarCompraTokenInvalido"/>
+    <testcase name="Status code é 401" time="0.182" classname="4CarrinhosCancelarCompraTokenInvalido"/>
+    <testcase name="Message de erro de token" time="0.182" classname="4CarrinhosCancelarCompraTokenInvalido"/>
+  </testsuite>
+  <testsuite name="5. Cenários de Limpeza / Excluir Produto - Sucesso" id="9809985c-b44a-4958-8fbf-e5097d588e5a" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="0" errors="0" time="0.289">
+    <testcase name="Response é JSON válido" time="0.289" classname="5CenariosDeLimpezaExcluirProdutoSucesso"/>
+    <testcase name="Response time é aceitável" time="0.289" classname="5CenariosDeLimpezaExcluirProdutoSucesso"/>
+    <testcase name="Content-Type correto" time="0.289" classname="5CenariosDeLimpezaExcluirProdutoSucesso"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.289" classname="5CenariosDeLimpezaExcluirProdutoSucesso"/>
+    <testcase name="Status code é 200" time="0.289" classname="5CenariosDeLimpezaExcluirProdutoSucesso"/>
+    <testcase name="Message de sucesso ou aviso" time="0.289" classname="5CenariosDeLimpezaExcluirProdutoSucesso"/>
+  </testsuite>
+  <testsuite name="5. Cenários de Limpeza / Excluir Usuário - Sucesso" id="9a3f0b9f-03b4-4be2-b237-f00cdafaf476" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="0" errors="0" time="0.283">
+    <testcase name="Response é JSON válido" time="0.283" classname="5CenariosDeLimpezaExcluirUsuarioSucesso"/>
+    <testcase name="Response time é aceitável" time="0.283" classname="5CenariosDeLimpezaExcluirUsuarioSucesso"/>
+    <testcase name="Content-Type correto" time="0.283" classname="5CenariosDeLimpezaExcluirUsuarioSucesso"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.283" classname="5CenariosDeLimpezaExcluirUsuarioSucesso"/>
+    <testcase name="Status code é 200" time="0.283" classname="5CenariosDeLimpezaExcluirUsuarioSucesso"/>
+    <testcase name="Message de sucesso ou aviso" time="0.283" classname="5CenariosDeLimpezaExcluirUsuarioSucesso"/>
+  </testsuite>
+  <testsuite name="6. Testes de Limite e Edge Cases / Cadastrar Usuário - Campos Vazios" id="51a7277a-0798-4b19-8f54-ea8bcdee892f" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="0" errors="0" time="0.273">
+    <testcase name="Response é JSON válido" time="0.273" classname="6TestesDeLimiteEEdgeCasesCadastrarUsuarioCamposVazios"/>
+    <testcase name="Response time é aceitável" time="0.273" classname="6TestesDeLimiteEEdgeCasesCadastrarUsuarioCamposVazios"/>
+    <testcase name="Content-Type correto" time="0.273" classname="6TestesDeLimiteEEdgeCasesCadastrarUsuarioCamposVazios"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.273" classname="6TestesDeLimiteEEdgeCasesCadastrarUsuarioCamposVazios"/>
+    <testcase name="Status code é 400" time="0.273" classname="6TestesDeLimiteEEdgeCasesCadastrarUsuarioCamposVazios"/>
+    <testcase name="Response contém erros de validação" time="0.273" classname="6TestesDeLimiteEEdgeCasesCadastrarUsuarioCamposVazios"/>
+  </testsuite>
+  <testsuite name="6. Testes de Limite e Edge Cases / Cadastrar Produto - Preço Negativo" id="59dab765-38fe-4e6f-bc78-6df6abd208e2" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="0" errors="0" time="0.292">
+    <testcase name="Response é JSON válido" time="0.292" classname="6TestesDeLimiteEEdgeCasesCadastrarProdutoPrecoNegativo"/>
+    <testcase name="Response time é aceitável" time="0.292" classname="6TestesDeLimiteEEdgeCasesCadastrarProdutoPrecoNegativo"/>
+    <testcase name="Content-Type correto" time="0.292" classname="6TestesDeLimiteEEdgeCasesCadastrarProdutoPrecoNegativo"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.292" classname="6TestesDeLimiteEEdgeCasesCadastrarProdutoPrecoNegativo"/>
+    <testcase name="Status code é 400" time="0.292" classname="6TestesDeLimiteEEdgeCasesCadastrarProdutoPrecoNegativo"/>
+    <testcase name="Response contém erro de validação de preço" time="0.292" classname="6TestesDeLimiteEEdgeCasesCadastrarProdutoPrecoNegativo"/>
+  </testsuite>
+  <testsuite name="6. Testes de Limite e Edge Cases / Cadastrar Carrinho - Quantidade Excessiva" id="c29e7818-b5af-42ef-96bf-6ddb1de84cfa" timestamp="2025-08-27T01:51:24.972Z" tests="6" failures="2" errors="0" time="0.281">
+    <testcase name="Response é JSON válido" time="0.281" classname="6TestesDeLimiteEEdgeCasesCadastrarCarrinhoQuantidadeExcessiva"/>
+    <testcase name="Response time é aceitável" time="0.281" classname="6TestesDeLimiteEEdgeCasesCadastrarCarrinhoQuantidadeExcessiva"/>
+    <testcase name="Content-Type correto" time="0.281" classname="6TestesDeLimiteEEdgeCasesCadastrarCarrinhoQuantidadeExcessiva"/>
+    <testcase name="Não há vazamento de dados sensíveis" time="0.281" classname="6TestesDeLimiteEEdgeCasesCadastrarCarrinhoQuantidadeExcessiva"/>
+    <testcase name="Status code é 400" time="0.281" classname="6TestesDeLimiteEEdgeCasesCadastrarCarrinhoQuantidadeExcessiva">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 201">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Carrinho - Quantidade Excessiva.]]>
+        <![CDATA[Test description: Status code é 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 201.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 201
+   at Object.eval sandbox-script.js:1:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Message de erro de quantidade insuficiente" time="0.281" classname="6TestesDeLimiteEEdgeCasesCadastrarCarrinhoQuantidadeExcessiva">
+      <failure type="AssertionFailure" message="expected 'Cadastro realizado com sucesso' to include 'Produto não possui quantidade suficie…'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 12345678-1234-5678-9012-123456789012.]]>
+        <![CDATA[Collection name: ServeRest - API Tests.]]>
+        <![CDATA[Request name: 6. Testes de Limite e Edge Cases / Cadastrar Carrinho - Quantidade Excessiva.]]>
+        <![CDATA[Test description: Message de erro de quantidade insuficiente.]]>
+        <![CDATA[Error message: expected 'Cadastro realizado com sucesso' to include 'Produto não possui quantidade suficie…'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'Cadastro realizado com sucesso' to include 'Produto não possui quantidade suficie…'
+   at Object.eval sandbox-script.js:2:28).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>
