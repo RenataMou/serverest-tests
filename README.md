@@ -8,12 +8,10 @@ Projeto de testes automatizados para a API ServeRest usando Newman (Postman CLI)
 
 ## 📋 Funcionalidades
 
-- ✅ **135+ testes automatizados** cobrindo todos os endpoints
-- 🔄 **Execução em múltiplos ambientes** (dev, staging, production)
+- ✅ **testes automatizados** cobrindo todos os endpoints
 - 📊 **Relatórios HTML visuais** com gráficos detalhados
 - 🤖 **CI/CD automatizado** via GitHub Actions
 - 📈 **Relatórios XML/JSON** para integração com outras ferramentas
-- 🐳 **Suporte Docker** para execução isolada
 - ⚡ **Scripts otimizados** para diferentes cenários
 
 ## 🛠️ Pré-requisitos
@@ -37,3 +35,4 @@ npm run setup
 
 # Executar testes
 npm test
+
